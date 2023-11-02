@@ -1,0 +1,53 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "shiori" {
+
+    name[Group1]= "Matt Special";
+
+    key <TLDE>	{[   grave,	 asciitilde	]};
+
+    key <AD01>	{[	q,	Q,	1,	exclam	]};
+    key <AD02>	{[	w,	 W,	2,	at	]};
+    key <AD03>	{[	e,	 E,	3,	numbersign	]};
+    key <AD04>	{[	 r,	 R,	4,	dollar		]};
+    key <AD05>	{[	 t,	 T,	5,	percent		]};
+
+    key <AD06>	{[	 y,	 Y,	6,	asciicircum		]};
+    key <AD07>	{[	 u,	 U,	7,	ampersand		]};
+    key <AD08>	{[	 i,	 I,	8,	asterisk		]};
+    key <AD09>	{[	 o,	 O,	9,	parenleft		]};
+    key <AD10>	{[	 p,	 P,	0,	parenright		]};
+
+    key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
+    key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
+
+    key <AC01>	{[	 a,	 A,	1,	exclam		]};
+    key <AC02>	{[	 s,	 S,	2,	at		]};
+    key <AC03>	{[	 d,	 D, 	3,	numbersign		]};
+    key <AC04>	{[	 f,	 F,	4,	dollar		]};
+    key <AC05>	{[	 g,	 G,	minus,	apostrophe		]};
+    key <AC06>	{[	 h,	 H, 	equal,	plus			]};
+    key <AC07>	{[	 j,	 J,	7,	ampersand		]};
+    key <AC08>	{[	 k,	 K, 	8,	asterisk		]};
+    key <AC09>	{[	 l,	 L,	9,	parenleft		]};
+    key <AC10>	{[ semicolon,	 colon,	0,	parenright		]};
+    key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
+    key <BKSL>	{[ backslash,	 bar		]};
+
+    key <AB01>	{[	 z,	 Z		]};
+    key <AB02>	{[	 x,	 X		]};
+    key <AB03>	{[	 c,	 C		]};
+    key <AB04>	{[	 v,	 V		]};
+    key <AB05>	{[	 b,	 B		]};
+    key <AB06>	{[	 n,	 N		]};
+    key <AB07>	{[	 m,	 M		]};
+    key <AB08>	{[   comma,	 less		]};
+    key <AB09>	{[  period,	 greater	]};
+    key <AB10>	{[   slash,	 question	]};
+
+
+    key <RTRN> { [ Return,	quotedbl, 	5,	percent ] };
+    key <SPCE> { [ space,	underscore, 	6,	asciicircum ] };
+
+    include "level3(ralt_switch)"
+};
+

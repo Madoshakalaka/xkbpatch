@@ -1,0 +1,10 @@
+[Unit]
+Description=xkbpatch run as a service
+
+[Service]
+Type=oneshot
+ExecStart=/home/maa/Projects/xkbpatch/target/release/xkbpatch
+User=root
+
+[Install]
+WantedBy=multi-user.target
