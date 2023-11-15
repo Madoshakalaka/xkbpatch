@@ -6,16 +6,16 @@ xkb_symbols "shiori" {
     key <TLDE>	{[   grave,	 asciitilde	]};
 
     key <AD01>	{[	q,	Q,	1,	exclam	]};
-    key <AD02>	{[	w,	 W,	2,	at	]};
-    key <AD03>	{[	e,	 E,	3,	numbersign	]};
+    key <AD02>	{[	w,	 W,	grave,	asciitilde	]};
+    key <AD03>	{[	e,	 E,	Tab,	Tab	]};
     key <AD04>	{[	 r,	 R,	4,	dollar		]};
     key <AD05>	{[	 t,	 T,	5,	percent		]};
 
     key <AD06>	{[	 y,	 Y,	6,	asciicircum		]};
-    key <AD07>	{[	 u,	 U,	7,	ampersand		]};
-    key <AD08>	{[	 i,	 I,	8,	asterisk		]};
-    key <AD09>	{[	 o,	 O,	9,	parenleft		]};
-    key <AD10>	{[	 p,	 P,	0,	parenright		]};
+    key <AD07>	{[	 u,	 U		]};
+    key <AD08>	{[	 i,	 I,		bracketleft,	braceleft		]};
+    key <AD09>	{[	 o,	 O,		bracketright,	braceright		]};
+    key <AD10>	{[	 p,	 P,		backslash,	bar		]};
 
     key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
@@ -33,11 +33,13 @@ xkb_symbols "shiori" {
     key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
     key <BKSL>	{[ backslash,	 bar		]};
 
+    key <AE05>	{[          5,     percent  ]};
+
     key <AB01>	{[	 z,	 Z		]};
     key <AB02>	{[	 x,	 X		]};
-    key <AB03>	{[	 c,	 C		]};
-    key <AB04>	{[	 v,	 V		]};
-    key <AB05>	{[	 b,	 B		]};
+    key <AB03>	{[	 c,	 C,	Multi_key		]};
+    key <AB04>	{[	 v,	 V,	5,	percent		]};
+    key <AB05>	{[	 b,	 B, 	plus,		equal		]};
     key <AB06>	{[	 n,	 N		]};
     key <AB07>	{[	 m,	 M		]};
     key <AB08>	{[   comma,	 less		]};
@@ -47,7 +49,6 @@ xkb_symbols "shiori" {
 
     key <RTRN> { [ Return,	quotedbl, 	5,	percent ] };
     key <SPCE> { [ space,	underscore, 	6,	asciicircum ] };
-
     include "level3(ralt_switch)"
 };
 
