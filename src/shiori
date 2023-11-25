@@ -5,11 +5,12 @@ xkb_symbols "shiori" {
 
     key <TLDE>	{[   grave,	 asciitilde	]};
 
-// key q
+    // key q
     key <AD01>	{[	q,	NoSymbol,	1,	exclam	]};
     key <AD02>	{[	w,	 W,	grave,	asciitilde	]};
     key <AD03>	{[	e,	 E,	Tab,	equal	]};
- //key r
+
+    //key r
     key <AD04>	{[	 NoSymbol,	NoSymbol,	4,	dollar		]};
     key <AD05>	{[	 t,	 T,	5,	percent		]};
 
@@ -17,7 +18,8 @@ xkb_symbols "shiori" {
     key <AD07>	{[	 u,	 U		]};
     key <AD08>	{[	 i,	 I,		bracketleft,	braceleft		]};
     key <AD09>	{[	 o,	 O,		bracketright,	braceright		]};
- //key p
+
+    //key p
     key <AD10>	{[	 NoSymbol,	NoSymbol,		NoSymbol,	NoSymbol		]};
 
     key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
