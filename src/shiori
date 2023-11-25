@@ -5,33 +5,36 @@ xkb_symbols "shiori" {
 
     key <TLDE>	{[   grave,	 asciitilde	]};
 
-    key <AD01>	{[	q,	Q,	1,	exclam	]};
+// key q
+    key <AD01>	{[	q,	NoSymbol,	1,	exclam	]};
     key <AD02>	{[	w,	 W,	grave,	asciitilde	]};
-    key <AD03>	{[	e,	 E,	Tab,	Tab	]};
-    key <AD04>	{[	 r,	 R,	4,	dollar		]};
+    key <AD03>	{[	e,	 E,	Tab,	equal	]};
+ //key r
+    key <AD04>	{[	 NoSymbol,	NoSymbol,	4,	dollar		]};
     key <AD05>	{[	 t,	 T,	5,	percent		]};
 
     key <AD06>	{[	 y,	 Y,	6,	asciicircum		]};
     key <AD07>	{[	 u,	 U		]};
     key <AD08>	{[	 i,	 I,		bracketleft,	braceleft		]};
     key <AD09>	{[	 o,	 O,		bracketright,	braceright		]};
-    key <AD10>	{[	 p,	 P,		backslash,	bar		]};
+ //key p
+    key <AD10>	{[	 NoSymbol,	NoSymbol,		NoSymbol,	NoSymbol		]};
 
     key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
 
     key <AC01>	{[	 a,	 A,	1,	exclam		]};
-    key <AC02>	{[	 s,	 S,	2,	at		]};
+    key <AC02>	{[	 s,	 S,	2,	period		]};
     key <AC03>	{[	 d,	 D, 	3,	numbersign		]};
-    key <AC04>	{[	 f,	 F,	4,	dollar		]};
-    key <AC05>	{[	 g,	 G,	minus,	apostrophe		]};
-    key <AC06>	{[	 h,	 H, 	equal,	plus			]};
+    key <AC04>	{[	 f,	 F,	4,	apostrophe		]};
+    key <AC05>	{[	 g,	 G		]};
+    key <AC06>	{[	 h,	 H 				]};
     key <AC07>	{[	 j,	 J,	7,	ampersand		]};
     key <AC08>	{[	 k,	 K, 	8,	asterisk		]};
     key <AC09>	{[	 l,	 L,	9,	parenleft		]};
     key <AC10>	{[ semicolon,	 colon,	0,	parenright		]};
     key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
-    key <BKSL>	{[ backslash,	 bar		]};
+    key <BKSL>	{[ backslash,	 bar        	]};
 
     key <AE01>	{[	 1,	 exclam		]};
     key <AE02>	{[	 2,	 at		]};
@@ -44,18 +47,20 @@ xkb_symbols "shiori" {
     key <AE09>	{[	 9,	 parenleft	]};
     key <AE10>	{[	 0,	 parenright	]};
 
-    key <AB01>	{[	 z,	 Z		]};
-    key <AB02>	{[	 x,	 X		]};
-    key <AB03>	{[	 c,	 C,	Multi_key		]};
-    key <AB04>	{[	 v,	 V,	t,	T		]};
-    key <AB05>	{[	 b,	 B, 	plus,		equal		]};
-    key <AB06>	{[	 n,	 N,	y,	Y		]};
-    key <AB07>	{[	 m,	 M,	y,	Y		]};
-    key <AB08>	{[   comma,	 less,	u,	U		]};
-    key <AB09>	{[  period,	 greater	]};
-    key <AB10>	{[   slash,	 question	]};
+    key <AB01>	{[	 z,	 Z,	q,	Q		]};
+    key <AB02>	{[	 x,	 X,	Multi_key,	minus		]};
+    key <AB03>	{[	 c,	 C,	t,	T		]};
+    key <AB04>	{[	 v,	 V,	r,	R		]};
+    key <AB05>	{[	 b,	 B, 	g,		G		]};
+    key <AB06>	{[	 n,	 N,	h,	H		]};
+    key <AB07>	{[	 m,	 M,	u,	U		]};
+    key <AB08>	{[   comma,	 less,	y,	Y		]};
+    key <AB09>	{[  F7,	 greater,	at,	plus	]};
+    key <AB10>	{[   slash,	 question,	p,	P	]};
+    key <PGUP>	{[   Prior,	 Prior,	backslash,	bar	]};
 
 
+    key <TAB>	{[   Tab,	 Tab,	dollar		]};
     key <RTRN> { [ Return,	quotedbl, 	5,	percent ] };
     key <SPCE> { [ space,	underscore, 	6,	asciicircum ] };
     include "level3(ralt_switch)"
