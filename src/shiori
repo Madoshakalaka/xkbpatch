@@ -5,13 +5,12 @@ xkb_symbols "shiori" {
 
     key <TLDE>	{[   grave,	 asciitilde	]};
 
-    // key q
-    key <AD01>	{[	q,	NoSymbol,	1,	exclam	]};
+    key <AD01>	{[	q,	Q,	1,	exclam	]};
     key <AD02>	{[	w,	 W,	grave,	asciitilde	]};
-    key <AD03>	{[	e,	 E,	Tab,	equal	]};
+    key <AD03>	{[	e,	 E,	equal,	plus	]};
 
-    //key r
-    key <AD04>	{[	 NoSymbol,	NoSymbol,	4,	dollar		]};
+
+    key <AD04>	{[	 r,	R		]};
     key <AD05>	{[	 t,	 T,	5,	percent		]};
 
     key <AD06>	{[	 y,	 Y,	6,	asciicircum		]};
@@ -19,8 +18,7 @@ xkb_symbols "shiori" {
     key <AD08>	{[	 i,	 I,		bracketleft,	braceleft		]};
     key <AD09>	{[	 o,	 O,		bracketright,	braceright		]};
 
-    //key p
-    key <AD10>	{[	 NoSymbol,	NoSymbol,		NoSymbol,	NoSymbol		]};
+    key <AD10>	{[	 p,	P,		NoSymbol,	NoSymbol		]};
 
     key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
@@ -57,7 +55,7 @@ xkb_symbols "shiori" {
     key <AB06>	{[	 n,	 N,	h,	H		]};
     key <AB07>	{[	 m,	 M,	u,	U		]};
     key <AB08>	{[   comma,	 less,	y,	Y		]};
-    key <AB09>	{[  F7,	 greater,	at,	plus	]};
+    key <AB09>	{[  F7,	 greater,	dollar,	plus	]};
     key <AB10>	{[   slash,	 question,	p,	P	]};
     key <PGUP>	{[   Prior,	 Prior,	backslash,	bar	]};
 
@@ -65,6 +63,6 @@ xkb_symbols "shiori" {
     key <TAB>	{[   Tab,	 Tab,	dollar		]};
     key <RTRN> { [ Return,	quotedbl, 	5,	percent ] };
     key <SPCE> { [ space,	underscore, 	6,	asciicircum ] };
-    include "level3(ralt_switch)"
+//    include "level3(ralt_switch)"
 };
 
