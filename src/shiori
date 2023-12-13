@@ -21,6 +21,7 @@ xkb_symbols "shiori" {
     key <AD10>	{[	 p,	P,		NoSymbol,	NoSymbol		]};
 
     key <AD11>	{[ bracketleft,	 braceleft,	minus,	underscore	]};
+
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
 
     key <AC01>	{[	 a,	 A,	q,	Q		]};
@@ -31,7 +32,7 @@ xkb_symbols "shiori" {
     key <AC06>	{[	 h,	 H 				]};
     key <AC07>	{[	 j,	 J,	u,	U		]};
     key <AC08>	{[	 k,	 K, 	y,	Y		]};
-    key <AC09>	{[	 l,	 L,	apostrophe		,	plus		]};
+    key <AC09>	{[	 l,	 L,	apostrophe		,	backslash		]};
     key <AC10>	{[ semicolon,	 colon,	p,	P		]};
     key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
     key <BKSL>	{[ backslash,	 bar        	]};
