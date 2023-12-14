@@ -37,6 +37,8 @@ xkb_symbols "shiori" {
     key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
     key <BKSL>	{[ backslash,	 bar        	]};
 
+    // normie keyboard compat
+
     key <AE01>	{[	 1,	 exclam		]};
     key <AE02>	{[	 2,	 at		]};
     key <AE03>	{[	 3,	 numbersign	]};
@@ -48,6 +50,7 @@ xkb_symbols "shiori" {
     key <AE09>	{[	 9,	 parenleft	]};
     key <AE10>	{[	 0,	 parenright	]};
     key <AE11>      {[ minus,      underscore,  endash,             emdash              ]};
+    key <AE12>      {[           equal,             plus ]};
 
     key <AB01>	{[	 z,	 Z,	1,	exclam		]};
     key <AB02>	{[	 x,	 X,	2,	minus		]};
