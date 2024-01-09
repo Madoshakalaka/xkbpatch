@@ -24,17 +24,20 @@ xkb_symbols "shiori" {
 
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
 
+    key <DELE>	{[	 Delete,	 Delete,	0,	emptyset		]};
+    key <FK02>	{[	 F2,	 F2,	9,	percent		]};
+
     key <AC01>	{[	 a,	 A,	q,	Q		]};
-    key <AC02>	{[	 s,	 S,	period		,	Multi_key]};
+    key <AC02>	{[	 s,	 S,	b,	 B]};
     key <AC03>	{[	 d,	 D, 	t,	T		]};
     key <AC04>	{[	 f,	 F,	r,	R		]};
     key <AC05>	{[	 g,	 G		]};
     key <AC06>	{[	 h,	 H 				]};
     key <AC07>	{[	 j,	 J,	u,	U		]};
     key <AC08>	{[	 k,	 K, 	y,	Y		]};
-    key <AC09>	{[	 l,	 L,	apostrophe		,	backslash		]};
-    key <AC10>	{[ semicolon,	 colon,	p,	P		]};
-    key <AC11>	{[ apostrophe,	 quotedbl, 	minus,	underscore	]};
+    key <AC09>	{[	 l,	 L,	g,	G		]};
+    key <AC10>	{[ semicolon,	 colon,	backslash,	bar		]};
+    key <AC11>	{[ apostrophe,	 quotedbl, 	asciicircum,	Multi_key	]};
     key <BKSL>	{[ backslash,	 bar        	]};
 
     // normie keyboard compat
@@ -56,17 +59,17 @@ xkb_symbols "shiori" {
     key <AB02>	{[	 x,	 X,	2,	minus		]};
     key <AB03>	{[	 c,	 C,	3,	numbersign		]};
     key <AB04>	{[	 v,	 V,	4,	dollar]};
-    key <AB05>	{[	 b,	 B, 	5,	percent		]};
-    key <AB06>	{[	 n,	 N,	6,	asciicircum		]};
-    key <AB07>	{[	 m,	 M,	7,	ampersand		]};
-    key <AB08>	{[   comma,	 less,	8,	asterisk		]};
-    key <AB09>	{[  F7,	 greater,	9,	parenleft	]};
-    key <AB10>	{[   slash,	 question,	0,	parenright	]};
+    key <AB05>	{[	 b		,	B				]};
+    key <AB06>	{[	 n,	 N,	p,	P		]};
+    key <AB07>	{[	 m,	 M,	5,	ampersand		]};
+    key <AB08>	{[   comma,	 less,	6,	parenleft		]};
+    key <AB09>	{[  period,	 greater,	7,	parenright	]};
+    key <AB10>	{[   slash,	 question,	8,	asterisk	]};
     key <PGUP>	{[   Prior,	 Prior,	backslash,	bar	]};
 
 
     key <TAB>	{[   Tab,	 Tab,	dollar		]};
-    key <RTRN> { [ Return,	quotedbl, 	g,		G ] };
+    key <RTRN> { [ Return,	Return, 	g,		G ] };
     key <SPCE> { [ space,	underscore, 	h,	H ] };
 //    include "level3(ralt_switch)"
 };
