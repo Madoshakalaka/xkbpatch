@@ -24,7 +24,7 @@ xkb_symbols "shiori" {
 
     key <AD12>	{[ bracketright, braceright,	equal,	plus	]};
 
-    key <DELE>	{[	 Delete,	 Delete,	0,	emptyset		]};
+    key <DELE>	{[	 Delete,	 Delete			]};
     key <FK02>	{[	 F2,	 F2,	9,	percent		]};
 
     key <AC01>	{[	 a,	 A,	q,	Q		]};
@@ -37,8 +37,9 @@ xkb_symbols "shiori" {
     key <AC08>	{[	 k,	 K, 	y,	Y		]};
     key <AC09>	{[	 l,	 L,	g,	G		]};
     key <AC10>	{[ semicolon,	 colon,	backslash,	bar		]};
-    key <AC11>	{[ apostrophe,	 quotedbl, 	asciicircum,	Multi_key	]};
-    key <BKSL>	{[ backslash,	 bar        	]};
+    //key <AC11>	{[ apostrophe,	 quotedbl, 	asciicircum,	Multi_key	]};
+    key <AC11>	{[ apostrophe,	 quotedbl, 	0,	Multi_key	]};
+    key <BKSL>	{[ backslash,	 bar, asciicircum, at        	]};
 
     // normie keyboard compat
 
@@ -65,7 +66,7 @@ xkb_symbols "shiori" {
     key <AB08>	{[   comma,	 less,	6,	parenleft		]};
     key <AB09>	{[  period,	 greater,	7,	parenright	]};
     key <AB10>	{[   slash,	 question,	8,	asterisk	]};
-    key <PGUP>	{[   Prior,	 Prior,	backslash,	bar	]};
+    key <PGUP>	{[   Prior,	 Prior,	Next,	Next	]};
 
 
     key <TAB>	{[   Tab,	 Tab,	dollar		]};
