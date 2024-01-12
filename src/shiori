@@ -70,7 +70,7 @@ xkb_symbols "shiori" {
 
 
     key <TAB>	{[   Tab,	 Tab,	dollar		]};
-    key <RTRN> { [ Return,	Return, 	g,		G ] };
+    key <RTRN> { [ Return,	Return 	 ] };
     key <SPCE> { [ space,	underscore, 	h,	H ] };
 //    include "level3(ralt_switch)"
 };
