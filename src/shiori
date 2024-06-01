@@ -36,7 +36,7 @@ xkb_symbols "shiori" {
     key <AC07>	{[	 j,	 J,	u,	U		]};
     key <AC08>	{[	 k,	 K, 	y,	Y		]};
     key <AC09>	{[	 l,	 L,	g,	G		]};
-    key <AC10>	{[ semicolon,	 colon,	plusminus,	degree		]};
+    key <AC10>	{[ semicolon,	 colon,	kana_conjunctive,	downarrow		]};
     //key <AC11>	{[ apostrophe,	 quotedbl, 	asciicircum,	Multi_key	]};
     key <AC11>	{[ apostrophe,	 quotedbl, 	0,	Multi_key	]};
     key <BKSL>	{[ backslash,	 bar, asciicircum, at        	]};
